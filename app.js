@@ -1,3 +1,5 @@
+// Using this basic code to test uploading to github
+
 let season = "Autumn";
 
 switch(season){

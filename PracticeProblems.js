@@ -70,4 +70,44 @@
 //console.log(isDivisibleBySix(600));
 
 //          Problem 7 Will January 1st ever be a sunday between 2014 and 2050
-for (i=2014, i = 2050, i++)
+//console.log('--------------------');
+//for (var year = 2014; year <= 2050; year++)
+//    {
+//    var d = new Date(year, 0, 1);
+//    if ( d.getDay() === 1 )
+//        console.log("1st January is a Monday in the year "+year);
+//    }
+//console.log('--------------------');
+
+//                  Problem 8 generate a number between 1 and 10 and guess it.
+//let randomNumber = Math.ceil(Math.random() *10);
+//let guessedNumber = 5;
+//    if (randomNumber == guessedNumber){
+//        return console.log(`You guessed ${guessedNumber}? Lucky Guess!`)}
+//   else {
+//        return (console.log(`Haha! You guessed ${guessedNumber}? You fool! You fell for one of the classic blunders... I was clearly thinking of ${randomNumber}`))
+//}
+
+//                  Problem 9 write a program to calculate the number of days till christmas
+//const today = new Date;
+//let christmas = new Date(today.getFullYear(), 11, 25);
+
+//if (today.getMonth()===11 && today.getDate >= 25){
+//    christmas.getFullYear(christmas.getFullYear()+1)
+//}
+//let oneDay = 1000*60*60*24;
+//console.log(`It is ` + 
+//        (Math.ceil((christmas.getTime()-today.getTime()))/(oneDay)) 
+//            + ` days till Christmas!`)
+//;
+//                  Problem 11 write a program to convert temperatures from C to F
+//const celcius = null;
+//const farenheit = 12;
+//if (celcius === farenheit){
+//    console.log('Please Provide a number in one of the given blanks')
+//}
+//else if (farenheit === null)
+//    console.log((celcius/5)*9+32);
+//else if (celcius === null)
+//    console.log((farenheit-32)/9*5)
+//;
